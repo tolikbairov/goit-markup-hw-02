@@ -93,3 +93,9 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+.project .title {
+  color: var(--title-text-color);
+}
+.project .text {
+  color: var(--primary-text-color);
+}
