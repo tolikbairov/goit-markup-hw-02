@@ -118,9 +118,15 @@ body {
   font-weight: 500;
 }
 /* address style */
-.address {
+.footer {
+  background-color: var(--secondary-bg-color);
   background-color: var(--secondary-bg-color);
   color: var(--primary-white-color);
+}
+.footer .logo-second {
+  color: var(--primary-white-color);
+}
+.address {
   font-style: normal;
 }
 .address .link {
