@@ -98,6 +98,7 @@ body {
   font-weight: 700;
 }
 .feature-list .title {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -108,12 +109,12 @@ body {
   text-align: center;
 }
 
-.team .title,
-.team .text {
+.team .list-element {
+  text-align: center;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
 }
+
 .team .title {
   font-weight: 500;
 }
