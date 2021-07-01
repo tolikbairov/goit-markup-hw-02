@@ -31,18 +31,15 @@ body {
 /* Logo styles */
 .logo {
   text-decoration: none;
-}
-.logo-first {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 26px;
   line-height: 1.19;
+  font-size: 26px;
+}
+.logo-first {
   color: var(--accent-color);
 }
 .logo-second {
-  font-family: "Oleo Script", cursive;
-  font-size: 26px;
-  line-height: 1.38;
   color: #000000;
 }
 
@@ -118,13 +115,15 @@ body {
 .team .title {
   font-weight: 500;
 }
-/* address style */
+/* footer style */
 .footer {
   background-color: var(--secondary-bg-color);
-  background-color: var(--secondary-bg-color);
+}
+
+.footer .logo-second {
   color: var(--primary-white-color);
 }
-.footer .logo-second {
+.text-address {
   color: var(--primary-white-color);
 }
 .address {
@@ -146,10 +145,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
 }
-.filter .button.current {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
+
 .filter .button:hover,
 .filter .button:focus {
   background-color: var(--accent-color);
